@@ -1,0 +1,2 @@
+# looks in lib/, and we don't want POD tests anyway
+t/99..pod.t

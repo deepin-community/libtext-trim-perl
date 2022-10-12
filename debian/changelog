@@ -1,0 +1,93 @@
+libtext-trim-perl (1.04-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ gregor herrmann ]
+  * debian/watch: use uscan version 4.
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ gregor herrmann ]
+  * Import upstream version 1.04.
+  * Declare compliance with Debian Policy 4.5.1.
+  * Annotate test-only build dependencies with <!nocheck>.
+  * Bump debhelper-compat to 13.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 24 Jan 2021 01:21:49 +0100
+
+libtext-trim-perl (1.03-1) unstable; urgency=medium
+
+  [ Laurent Baillet ]
+  * add debian/upstream/metadata
+  * Declare compliance with Debian Policy 4.1.5
+
+  [ gregor herrmann ]
+  * Rename autopkgtest configuration file(s) as per new pkg-perl-
+    autopkgtest schema.
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * Remove Matt Zagrabelny from Uploaders. Thanks for your work!
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ intrigeri ]
+  * New upstream release 1.03
+  * Bump debhelper compatibility level to 12
+  * Declare compatibility with policy 4.4.1
+  * Explicitly declare dependencies provided by perl
+  * Update upstream copyright years
+  * Declare that debian/rules does not need (fake)root
+  * Add the name of a (almost) random human maintainer to Uploaders
+
+ -- intrigeri <intrigeri@debian.org>  Sun, 13 Oct 2019 07:20:21 +0000
+
+libtext-trim-perl (1.02-2) unstable; urgency=low
+
+  * Team upload.
+
+  [ gregor herrmann ]
+  * Remove alternative (build) dependencies that are already satisfied
+    in oldstable.
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * debian/copyright: Replace DEP5 Format-Specification URL from
+    svn.debian.org to anonscm.debian.org URL.
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Axel Beckert ]
+  * debian/copyright: migrate pre-1.0 format to 1.0 using "cme fix dpkg-
+    copyright"
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ gregor herrmann ]
+  * Mark package as autopkgtest-able.
+  * Declare compliance with Debian Policy 3.9.6.
+  * Add explicit build dependency on libmodule-build-perl.
+  * Bump debhelper compatibility level to 9.
+  * debian/copyright: update license stanzas and a comment.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 07 Jun 2015 23:00:56 +0200
+
+libtext-trim-perl (1.02-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #568144)
+
+ -- Matt Zagrabelny <mzagrabe@d.umn.edu>  Fri, 28 May 2010 14:42:32 -0500

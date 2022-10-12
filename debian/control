@@ -1,0 +1,26 @@
+Source: libtext-trim-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: intrigeri <intrigeri@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               libmodule-build-perl
+Build-Depends-Indep: libtest-pod-coverage-perl <!nocheck>,
+                     libtest-pod-perl <!nocheck>,
+                     libtest-simple-perl <!nocheck>,
+                     perl
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtext-trim-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtext-trim-perl.git
+Homepage: https://metacpan.org/release/Text-Trim
+Rules-Requires-Root: no
+
+Package: libtext-trim-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends}
+Description: module for remove leading and/or trailing whitespace from strings
+ Text::Trim provides functions for removing leading and/or trailing whitespace
+ from strings. It is basically a wrapper around some simple regexes with a
+ flexible context-based interface.
